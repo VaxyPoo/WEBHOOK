@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico" />
+    <title>DiscordWebhookSpammer</title>
+  </head>
+  <body>
+    <h1>Discord Webhook Spammer</h1>
+    <div id="controls">
+      <div class="inputs">
+        <input id="url" placeholder="*Webhook URL:">
+        <input id="username" placeholder="Webhook Username:">
+        <input id="message" placeholder="*Message:">
+        <input id="avatar" placeholder="Avatar URL:">
+      </div>
+      <div class="buttons">
+        <button id="start">Start</button>
+        <button id="stop" disabled>Stop</button>
+      </div>
+    </div>
+    <a href="#" id="aboutLink">About</a>
+    <div id="aboutModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>About Discord Webhook Spammer</h2>
+        <p>
+          This is a discord webhook spamming tool created by Josakko that allows you to
+          spam an discord webhook. Visit my
+          github <a href="https://github.com/Josakko">here</a>.
+        </p>
+        <p>
+          To use this tool, simply enter all required info in input boxes (Webhook URL and message other is optional) 
+          then start spamming the webhook by clicking "Start" button then "Stop" button to stop spamming.
+          If you need any help or find any bugs, please
+          contact me on my
+          <a href="https://discord.gg/xgET5epJE6">discord server</a>.
+        </p>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+    <script src="js/about.js"></script>
+  </body>
+</html>
